@@ -11,33 +11,6 @@
             <button type="submit">Все пользователи </button>
         </div>
     </form>
-    <%=request.getAttribute("users")%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    >
+    <%=request.getAttribute("users")%>
 </body>
 </html>
