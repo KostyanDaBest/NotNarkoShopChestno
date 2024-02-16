@@ -1,5 +1,7 @@
 package entity;
 
+import repository.FileRepository;
+
 import java.util.Objects;
 
 public class User {
@@ -77,5 +79,8 @@ public class User {
     public int hashCode() {
         return Objects.hash(id, name, surname, login, password);
     }
+    FileRepository fileRepository = new FileRepository();
+
+
 
 }
